@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+    /* Light gray background */
+}
+
+header {
+    background-color: #4CAF50;
+    /* Green header background */
+    color: #fff;
+    /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* White background for main content */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    /* Dark gray heading color */
+}
+
+section u1+h2 {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #4CAF50;
+    /* Green footer background */
+    color: #fff;
+    /* White text color */
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    /* Ensure that the footer clears both left and right floats */
+}
